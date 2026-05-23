@@ -251,6 +251,7 @@ ul { list-style: none; }
   min-height: 600px;
   display: flex;
   align-items: center;
+  margin-bottom: -1px;
 }
 .hero-bg {
   position: absolute;
