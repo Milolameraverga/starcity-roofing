@@ -773,7 +773,6 @@ ul { list-style: none; }
 .footer-logo {
   height: 44px;
   margin-bottom: 14px;
-  filter: brightness(0) invert(1);
 }
 .footer-col > p {
   color: rgba(255,255,255,0.52);
