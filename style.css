@@ -196,7 +196,23 @@ ul { list-style: none; }
   color: white;
   font-size: 1.6rem;
   cursor: pointer;
+  margin-left: 8px;
+}
+
+.btn-call-top {
+  display: none;
+  color: var(--accent);
+  font-family: var(--font-head);
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--accent);
   margin-left: auto;
+  flex-shrink: 0;
 }
 
 .mobile-nav {
@@ -1086,6 +1102,7 @@ ul { list-style: none; }
 @media (max-width: 960px) {
   .main-nav, .btn-call { display: none; }
   .hamburger { display: block; }
+  .btn-call-top { display: block; }
   .why-inner { grid-template-columns: 1fr; gap: 32px; }
   .why-img { order: -1; }
   .why-img img { height: 260px; }
