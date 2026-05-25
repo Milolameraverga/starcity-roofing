@@ -17,6 +17,20 @@ document.querySelectorAll('.faq-question').forEach(q => {
   });
 });
 
+// Fire GA custom event on form submission
+document.querySelectorAll('form').forEach(form => {
+  form.addEventListener('submit', function(e) {
+    if (this.method === 'POST') {
+      setTimeout(() => {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          'event': 'formSubmitSuccess'
+        });
+      }, 100);
+    }
+  });
+});
+
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
