@@ -625,6 +625,12 @@ ul { list-style: none; }
   transition: all 0.2s;
 }
 .area-pill:hover { background: var(--accent); border-color: var(--accent); color: var(--charcoal); }
+.content-section .area-pill {
+  background: var(--charcoal);
+  color: var(--white);
+  border-color: var(--charcoal);
+}
+.content-section .area-pill:hover { background: var(--accent); border-color: var(--accent); color: var(--charcoal); }
 
 /* ── PROCESS ── */
 .process-section {
