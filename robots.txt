@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /lp-roof-repair
+Disallow: /lp-roof-replacement
 
 Sitemap: https://starcityroofingelpaso.com/sitemap.xml
