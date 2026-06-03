@@ -1195,6 +1195,16 @@
         this.parentElement.classList.toggle('open');
       });
     });
+    document.querySelectorAll('form').forEach(function(form) {
+      form.addEventListener('submit', function() {
+        if (this.method === 'POST') {
+          setTimeout(function() {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ 'event': 'formSubmitSuccess' });
+          }, 100);
+        }
+      });
+    });
   </script>
 
 </body>
