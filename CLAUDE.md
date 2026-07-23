@@ -4,7 +4,7 @@
 This is the website for **Star City Roofing**, a locally owned roofing contractor in El Paso, TX.
 - **Phone:** (915) 740-5961
 - **Address:** 11115 Dyer St, El Paso, TX 79934
-- **Google Rating:** 4.9★ with 181+ reviews
+- **Google Rating:** 4.9★ with 190+ reviews
 - **Tagline:** God. Family. Roofing.
 
 ---

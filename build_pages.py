@@ -112,7 +112,7 @@ def page(title, meta_desc, canonical, h1, hero_p, breadcrumb_label, content_html
           <div style="padding:12px;"><img src="{img2}" alt="Roofing El Paso TX" style="width:100%;height:150px;object-fit:cover;border-radius:4px;" /></div>
         </div>
         <div style="margin-top:24px;background:var(--charcoal);border-radius:6px;padding:20px;border-left:4px solid var(--gold);">
-          <p style="color:var(--gold);font-family:var(--font-head);font-size:0.8rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;">⭐ 4.9 Google Rating · 181 Reviews</p>
+          <p style="color:var(--gold);font-family:var(--font-head);font-size:0.8rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;">⭐ 4.9 Google Rating · 190 Reviews</p>
           <p style="color:rgba(255,255,255,0.8);font-size:0.88rem;font-style:italic;">"Star City showed up on time, did quality work, and left everything clean. Best roofing company in El Paso."</p>
           <p style="color:rgba(255,255,255,0.5);font-size:0.8rem;margin-top:8px;">— Verified Google Review</p>
         </div>
@@ -280,7 +280,7 @@ for fname, area_name, zips, img1, img2 in area_data:
     <ul>
       <li>Licensed &amp; fully insured — no risk to you</li>
       <li>Free same-day estimates — just call</li>
-      <li>4.9★ Google rating with 181+ verified reviews</li>
+      <li>4.9★ Google rating with 190+ verified reviews</li>
       <li>7+ years serving El Paso, including {area_name}</li>
       <li>Honest recommendations — we tell you if you don't need a full replacement</li>
     </ul>
